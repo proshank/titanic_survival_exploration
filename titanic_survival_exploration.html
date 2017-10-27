@@ -13553,11 +13553,11 @@ We already knew that women and children were significantly more likely to surviv
 <ol>
 <li>First I tried to find people who actually survived but we were predicting otherwise, which is [“Sex==’male’”, “Age &gt;= 10”], for this I introduced another factor “Pclass” in filter.<br>
 For starter I tried with [“Sex==’male’”, “Age &lt; 18”], but did not find many people survived below age 18 in any class.<br>
-I slightly reduced Age criteria to below 16 and realized all men below Age 16 of class 1 and 2 survived, this gave me another set of men who survived.<br> <blockquote><p><strong>It was more likely for a man to survive if he is below 16 from class 1 and 2.</strong> <em>Please refer Step1 Output for output and condition used to split data</em></p>
+I slightly reduced Age criteria to below 16 and realized all men below Age 16 of class 1 and 2 survived, this gave me another set of men who survived.<br> <blockquote><p><strong>It was more likely for a man to survive if he is below 16 from class 1 and 2.</strong> <em>Please refer Step1 Output for condition used to split data and its output</em></p>
 </blockquote>
 </li>
 <li>After increasing my accuracy slightly at step 1, I tried with other factors to find another set of men survived on titanic but those factors where not increasing the accuracy by much but sometimes decreasing.<br>
-This made me believe that all women we predicted would survive is adding to error in our accuracy. After trying with couple of factors like "Pclass" &amp; "Embarked", I figured there is relation between women who survived and number of Siblings/Spouses Aboard with them("SibSp").<br><blockquote><p><strong>There was lesser chance of a woman to survive if woman was accompanying with more than 2 Siblings/Spouses aboard.</strong> <em>Please refer Step2 Output for output and condition used to split data</em></p>
+This made me believe that all women we predicted would survive is adding to error in our accuracy. After trying with couple of factors like "Pclass" &amp; "Embarked", I figured there is relation between women who survived and number of Siblings/Spouses Aboard with them("SibSp").<br><blockquote><p><strong>There was lesser chance of a woman to survive if woman was accompanying with more than 2 Siblings/Spouses aboard.</strong> <em>Please refer Step2 Output for condition used to split data and its output</em></p>
 </blockquote>
 </li>
 </ol>
